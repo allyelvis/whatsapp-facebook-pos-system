@@ -1,4 +1,4 @@
-modules = ["bash", "nodejs-20", "web"]
+modules = ["bash", "nodejs-20", "web", "gcloud", "java-graalvm22.3"]
 run = "node index.js"
 
 [nix]
@@ -10,3 +10,8 @@ run = ["sh", "-c", "node index.js"]
 [[ports]]
 localPort = 9005
 externalPort = 80
+
+[[ports]]
+localPort = 36705
+externalPort = 3000
+exposeLocalhost = true
