@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
-}git init
+  "author": "Ally Elvis Nzeyimana",
+  "license": "SC"
+}
+git init
 git remote add origin https://github.com/allyelvis/aesoko-gemini.git
 git add .
 git commit -m "Initial commit"
@@ -16,3 +17,5 @@ git push -u origin main
 git push -u origin main
 npm login
 npm login --auth-type=legacy --registry=https://registry.npmjs.org --scope=@your-scope
+
+
