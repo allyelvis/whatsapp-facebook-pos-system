@@ -14,3 +14,5 @@ git add .
 git commit -m "Initial commit"
 git push -u origin main
 git push -u origin main
+npm login
+npm login --auth-type=legacy --registry=https://registry.npmjs.org --scope=@your-scope
