@@ -8,4 +8,8 @@
   },
   "author": "",
   "license": "ISC"
-}
+}git init
+git remote add origin https://github.com/allyelvis/aesoko-gemini.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
